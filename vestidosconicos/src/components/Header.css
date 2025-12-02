@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background: linear-gradient(90deg, #ffd6e0, #fff8e7);
-  border-bottom: 2px solid #e6a5b1;
+  background: linear-gradient(90deg, #b6f7f3, #5fd4cf); /* rosa candy → blush pink */
+  border-bottom: 2px solid #4A4F87; /* roxo elegante */
   border-radius: 20px 20px 0 0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 10px rgba(74, 79, 135, 0.2); /* sombra roxa suave */
 }
 
 /* --- Esquerda (logo + texto) --- */
@@ -19,24 +19,24 @@
 .logo-placeholder {
   width: 70px;
   height: 70px;
-  background-color: #fffaf1;
-  border: 2px dashed #d16b8f;
+  background-color: #5fd4cf; /* verde pastel */
+  border: 2px dashed #4A4F87; /* roxo */
   border-radius: 50%;
-  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  box-shadow: 0 0 6px rgba(74, 79, 135, 0.25);
 }
 
 /* --- Texto da marca --- */
 .logo-text {
   font-family: 'Playfair Display', serif;
   font-size: 2rem;
-  color: #b24a6c;
-  text-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+  color: #4A4F87; /* roxo */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.05);
 }
 
 .byline {
   display: block;
   font-size: 1rem;
-  color: #a05a70;
+  color: #5fd4cf; /* rosa */
   font-weight: 400;
   margin-top: 4px;
 }
@@ -50,20 +50,20 @@
 
 .nav-button,
 .contact-button {
-  background-color: #d16b8f;
-  color: #fffaf1;
+  background-color: #5fd4cf; /* roxo principal */
+  color: #fff;
   border: none;
   border-radius: 30px;
   padding: 8px 18px;
   font-family: 'Poppins', sans-serif;
   font-size: 0.95rem;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
   transition: all 0.3s ease;
 }
 
 .nav-button:hover,
 .contact-button:hover {
-  background-color: #b85a78;
+  background-color: #5fd4cf; /* rosa */
   transform: scale(1.05);
 }

@@ -1,27 +1,28 @@
 .intro-text {
   text-align: center;
   padding: 50px;
-  background: #fff8f9;
+  background: #F8EEF3; /* rosa bem clarinho */
+  border: 3px solid #4A4F87; /* roxo principal */
   border-radius: 30px;
   margin: 40px auto;
   max-width: 900px;
   font-family: "Poppins", sans-serif;
-  box-shadow: 0 6px 18px rgba(181, 114, 129, 0.25);
+  box-shadow: 0 6px 18px rgba(74, 79, 135, 0.25); /* sombra roxa suave */
 }
 
 .intro-text strong {
-  color: #b57281;
+  color: #D58A9F; /* rosa da paleta */
 }
 
 .intro-text p {
   font-size: 1.1rem;
-  color: #4b2b2f;
+  color: #4A4F87; /* roxo no texto */
   margin: 12px 0;
 }
 
 .quote {
   margin-top: 25px;
   font-style: italic;
-  color: #a25968;
+  color: #C6DA83; /* verde para trazer a terceira cor */
   font-weight: 500;
 }

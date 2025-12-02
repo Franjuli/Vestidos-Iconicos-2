@@ -1,0 +1,86 @@
+.page2 {
+    background: white;
+    min-height: 100vh;
+    padding: 50px 30px;
+    color: #0a2a52;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto; 
+    max-width: 1800px; 
+  }
+  
+  .page2-title {
+    color: #5fd4cf;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .page2-text {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    font-size: 18px;
+  }
+  
+  /* ===== ESTILO LIVRO ABERTO ===== */
+  
+  .spread {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+  
+  .spread img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 6px;
+    object-fit: contain;
+  
+    /* ✅ BORDA + SOMBRA PARA DESTACAR */
+    border: 2px solid #5fd4cf;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .spread-text {
+    width: 45%;
+    padding: 40px;
+    background: #f2fcfb;
+  }
+  
+  .spread-text h3 {
+    color: #5fd4cf;
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  
+  .spread-text p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* Esquerda: imagem começa colada no canto */
+  .left img {
+    margin-left: -30px;
+  }
+  
+  /* Direita: imagem termina colada no canto */
+  .right {
+    justify-content: flex-end;
+  }
+  
+  .right img {
+    margin-right: -30px;
+  }
+  
+  /* LISTA FINAL */
+  .page2-list {
+    max-width: 400px;
+    margin: 80px auto 0;
+    font-size: 18px;
+  }
+  
+  .page2-list li {
+    margin-bottom: 12px;
+  }
+  

@@ -1,8 +1,15 @@
 :root {
-  --main-bg: linear-gradient(135deg, #fbeaed, #fff5f9);
-  --accent: #b57281;
-  --text: #4b2b2f;
-  --shadow: 0 6px 18px rgba(181, 114, 129, 0.25);
+  /* Fundo com rosa + verde */
+  --main-bg: linear-gradient(135deg, #fbe3eb, #C6DA83);
+
+  /* Rosa principal */
+  --accent: #D58A9F;
+
+  /* Texto roxinho */
+  --text: #4A4F87;
+
+  /* Sombra roxa */
+  --shadow: 0 6px 18px rgba(74, 79, 135, 0.25);
 }
 
 body {

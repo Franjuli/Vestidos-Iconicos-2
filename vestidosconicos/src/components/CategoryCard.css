@@ -1,24 +1,24 @@
 .category-card {
-    background: #fff6f8;
-    border: 2px solid #f3c9d3;
-    border-radius: 20px;
-    text-align: center;
-    padding: 30px;
-    box-shadow: 0 6px 15px rgba(181, 114, 129, 0.2);
-    transition: transform 0.2s;
-  }
-  
-  .category-card:hover {
-    transform: scale(1.05);
-  }
-  
-  .icon {
-    font-size: 2rem;
-    color: #b57281;
-  }
-  
-  .category-card h3 {
-    font-family: "Playfair Display", serif;
-    color: #4b2b2f;
-    margin-top: 10px;
-  }
+  background: #5fd4cf; /* rosa bem clarinho, elegante */
+  border: 2px solid  #00096e; /* roxo para contrastar */
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 6px 15px rgba(74, 79, 135, 0.2); /* sombra roxa suave */
+  transition: transform 0.2s;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #D58A9F; /* rosa principal */
+}
+
+.category-card h3 {
+  font-family: "Playfair Display", serif;
+  color: #4A4F87; /* roxo da paleta, mais bonito que o marrom antigo */
+  margin-top: 10px;
+}
