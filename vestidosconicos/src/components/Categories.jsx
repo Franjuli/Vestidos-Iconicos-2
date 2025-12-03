@@ -7,11 +7,12 @@ export default function Categories() {
     <section className="categories">
       <h2>Explore Categorias</h2>
       <div className="category-grid">
-        <CategoryCard icon="" title="Vestidos Clássicos" />
+        <CategoryCard icon="" title="Realeza" />
         <CategoryCard icon="" title="Do Cinema" />
         <CategoryCard icon="" title="De Época" />
-        <CategoryCard icon="" title="Contos de Fadas" />
+        <CategoryCard icon="" title="Live-action" />
       </div>
     </section>
   );
 }
+
