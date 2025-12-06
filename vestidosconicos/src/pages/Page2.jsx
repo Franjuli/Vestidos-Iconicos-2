@@ -71,10 +71,10 @@ export default function Page2() {
             foi criado de forma a refletir o tom fantástico e histórico-folclórico da
             história —
           </p>
-          <p>
-            Ou seja, há uma mistura de referências históricas (como moda inspirada no
-            passado) com toques de fantasia.
-          </p>
+         <p>
+  Ou seja, há uma mistura de referências históricas (como moda inspirada no passado) com toques de fantasia.
+</p>
+
         </div>
         <img src="/img4.jpg" alt="Vestido da Bela e a Fera 2014" />
       </section>
@@ -125,4 +125,5 @@ export default function Page2() {
     </div>
   );
 }
+
 
